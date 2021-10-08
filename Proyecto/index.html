@@ -2,33 +2,37 @@
 <html lang="es">
     <head>
         <link rel="stylesheet" href="./Style/style.css">
-        <title>Pumba</title>
+        <title>Poke Eevs</title>
     </head>
     <body>
         <h1>Calculador De IVS</h1>
         <br>
 
-        <img src="./img/Pokemon Go.png" alt="Pokemon Go" style="width:240px;height:128px;">
-        <br>
+        <div class="img">
+            <img src="./img/Pokemon Go.png" alt="Pokemon Go" style="width:240px;height:128px;">
+            <br>
+        </div>
 
         <div>
             <ul>
-                <form>
-                    <li>Ivs De Ataque:
-                    <input id="atq" type="number" min="0" max="15" placeholder="0-15"></li>
+                <form class="lista">
+                    <p>•Ivs De Ataque:
+                    <input id="atq" type="number" min="0" max="15" placeholder="0-15"></p>
                     <br>
-                    <li>Ivs De Defensa:
-                    <input id="def" type="number" min="0" max="15" placeholder="0-15"></li>
+                    <p>•Ivs De Defensa:
+                    <input id="def" type="number" min="0" max="15" placeholder="0-15"></p>
                     <br>
-                    <li>Ivs De Ps:
-                    <input id="ps" type="number" min="0" max="15" placeholder="0-15"></li>
+                    <p>•Ivs De Ps:
+                    <input id="ps" type="number" min="0" max="15" placeholder="0-15"></p>
                     <br>
-                    <input onclick="res()" type="button" value="Enviar">
+                    <input onclick="res()" type="submit" value="Enviar">
                 </form>
             </ul>
         </div>
 
         <script src="main.js"></script>
+
+
     </body>
 
 </html>

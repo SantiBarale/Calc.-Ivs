@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
+h1{
+    color: rgb(160, 9, 9);
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.lista{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.img{
+    text-align: center;
+}
