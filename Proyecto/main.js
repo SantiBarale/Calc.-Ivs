@@ -13,7 +13,7 @@
         // El "parseInt()" sirve para convertir en entero un numero //
         // El "Math.ceil()" sirve para redondear para arriba //
 
-        if(0 <= rest <= 100) {
+        if(rest <= 100) {
 
             document.getElementById("rf").innerHTML="Resultado: " + rest + "%";
 

@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <link rel="stylesheet" href="./Style/style.css">
-        <title>Poke Eevs</title>
-    </head>
-    <body>
-        <h1>Calculador De IVS</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Poke Eevs</title>
+</head>
+<body>
+    <div class="pokesgo"><img src="./img/PokesGO.png" alt="PokesGO" width="1300" height="600"></div>
+
+    <h3>Calculador De IVS</h3>
+    <br>
+
+    <div class="img">
+        <img src="./img/Pokemon Go.png" alt="Pokemon Go" style="width:240px;height:128px;">
         <br>
+    </div>
 
-        <div class="img">
-            <img src="./img/Pokemon Go.png" alt="Pokemon Go" style="width:240px;height:128px;">
-            <br>
-        </div>
+    <div>
+        <ul>
+            <form class="lista">
+                <p class="atq">•Ivs De Ataque:
+                <input id="atq" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <p class="def">•Ivs De Defensa:
+                <input id="def" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <p class="ps">•Ivs De Ps:
+                <input id="ps" type="number" min="0" max="15" placeholder="0-15"></p>
+                <br>
+                <input class="env" onclick="res()" type="button" value="Enviar">
+            </form>
+        </ul>
+    </div>
 
-        <div>
-            <ul>
-                <form class="lista">
-                    <p>•Ivs De Ataque:
-                    <input id="atq" type="number" min="0" max="15" placeholder="0-15"></p>
-                    <br>
-                    <p>•Ivs De Defensa:
-                    <input id="def" type="number" min="0" max="15" placeholder="0-15"></p>
-                    <br>
-                    <p>•Ivs De Ps:
-                    <input id="ps" type="number" min="0" max="15" placeholder="0-15"></p>
-                    <br>
-                    <input onclick="res()" type="button" value="Enviar">
-                </form>
-            </ul>
-        </div>
+    <script src="main.js"></script>
 
-        <script src="main.js"></script>
+    <div class="rf" id="rf"></div>
 
-        <div class="rf" id="rf"></div>
+    <p class="instagram"><a href="https://www.instagram.com/santibarale/?hl=es-la" target="blank">@SantiBarale</a></p>
 
-    </body>
+    <div>
+        
+    </div>
 
+</body>
 </html>
